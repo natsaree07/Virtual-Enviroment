@@ -1,0 +1,21 @@
+##Python Tutorial
+#Tool Install 
+	VScode
+	python 
+#Python Virtual Enviroment
+	#install
+		pip install virtualenv
+		python -m venv projectname
+	#Active
+		Script/active
+		Script/deactive
+#Jupyter Lab
+	pip install jupyterlab
+	#Run
+		jupyter lab
+	#Convert jupyterlab to python
+		pip install nbconvert
+		jupyter nbconvert testnotebook.ipynb --to python
+		#pdf
+			pip install nbconvert[webpdf]
+			jupyter nbconvert --to webpdf --allow-chromium-download your-notebook-file.ipynb
